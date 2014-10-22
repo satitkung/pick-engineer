@@ -6,7 +6,7 @@ def random_pick
     eng_list.push(x) #set each  data of input to array name eng_list
   end
 
-  puts eng_list.sample #print one name of engineerlist by random
+  puts eng_list.shuffle.sample #print one name of engineerlist by random
 end
 
 random_pick()
